@@ -1,0 +1,8 @@
+json{
+    "rewrites":[
+        {
+            "sources": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
