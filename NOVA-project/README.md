@@ -28,25 +28,25 @@ The project allows users to browse products, view product details, and manage th
 ## Screenshots
 
 ### Home
-![Home](./public/screenshots/home.png)
+![Home](./screenshots/home.png)
 
 ### Products
-![Products](./public/screenshots/products.png)
+![Products](./screenshots/products.png)
 
 ### Product Details
-![Product Details](./public/screenshots/products-details.png)
+![Product Details](./screenshots/products-details.png)
 
 ### Cart
-![Cart](./public/screenshots/cart.png)
+![Cart](./screenshots/cart.png)
 
 ### Login
-![Login](./public/screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ### Signup
-![Signup](./public/screenshots/signup.png)
+![Signup](./screenshots/signup.png)
 
 ### Checkout
-![Checkout](./public/screenshots/checkout.png)
+![Checkout](./screenshots/checkout.png)
 
 ### Order Placed
-![Order Placed](./public/screenshots/order-placed.png)
+![Order Placed](./screenshots/order-placed.png)
