@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Signup.module.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 export default function Signup() {
     const navigate = useNavigate();
     const [user, setUser] = useState({ fullName: "", email: "",
@@ -48,12 +48,12 @@ export default function Signup() {
                 <div className={styles.inputGroup}>
                     <label>Confirm Password</label>
                     <input type="password" name="confirmPassword" placeholder="Confirm your password"
-                        value={user.confirmPassword} onChange={handleChange} required/>
+                    value={user.confirmPassword} onChange={handleChange} required/>
                 </div>
                 <button type="submit"className={styles.signupButton}> Sign Up </button>
             </form>
             <p className={styles.loginText}> Already have an account?
-                    <a href="/login"> Login</a>
+                <Link to="/login">Login</Link>
             </p>
         </div>
     </div>
