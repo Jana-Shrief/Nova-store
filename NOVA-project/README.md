@@ -26,26 +26,27 @@ The project allows users to browse products, view product details, and manage th
 * Vite
 
 ## Screenshots
+
 ### Home
-"./screenshots/home.png"
+![Home](./public/screenshots/home.png)
 
 ### Products
-"./screenshots/products.png"
+![Products](./public/screenshots/products.png)
 
 ### Product Details
-"./screenshots/products-details.png"
+![Product Details](./public/screenshots/products-details.png)
 
 ### Cart
-"./screenshots/cart.png"
+![Cart](./public/screenshots/cart.png)
 
 ### Login
-"./screenshots/login.png"
-
-### Checkout
-"./screenshots/checkout.png"
-
-### Order placed
-"./screenshots/order-placed.png"
+![Login](./public/screenshots/login.png)
 
 ### Signup
-"./screenshots/signup.png"
+![Signup](./public/screenshots/signup.png)
+
+### Checkout
+![Checkout](./public/screenshots/checkout.png)
+
+### Order Placed
+![Order Placed](./public/screenshots/order-placed.png)
