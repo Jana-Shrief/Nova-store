@@ -45,10 +45,7 @@ export default function Login() {
             </form>
             <p className={styles.signupText}>
                 Don't have an account?
-                <p className={styles.signupText}>
-                    Don't have an account?
                     <Link to="/signup"> Sign Up</Link>
-                </p>
             </p>
         </div>
     </div>
