@@ -10,6 +10,7 @@ export default function Signup() {
             [event.target.name]: event.target.value }); }
     function handleSubmit(event) {
         event.preventDefault();
+        console.log("SIGN UP CLICKED");
         if (user.password !== user.confirmPassword) {
             alert("Passwords do not match!");
             return;
