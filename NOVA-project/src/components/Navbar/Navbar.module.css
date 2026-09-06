@@ -1,0 +1,134 @@
+.navbar{
+    background-color: #081b38 !important;
+    padding: 12px 40px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.112);
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white !important;
+    font-size:26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.brand img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.navLink {
+    color: #d9dce2 !important;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.navLink:hover {
+    color: antiquewhite !important;
+}
+
+.navbar :global(.navbar-toggler) {
+    border-color: rgba(255, 255, 255, 0.751);
+}
+
+.navbar :global(.navbar-toggler-icon) {
+    filter: invert(1);
+}
+
+.cartcontainer {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.cartcontainer i {
+    font-size: 24px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.cartcontainer:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.cartcontainer:hover i {
+    color: #d9dce2;
+}
+
+.cartCount {
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #420d0d;
+    color: antiquewhite;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.authLinks {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: auto;
+    margin-right: 5px;
+    list-style: none;
+}
+
+.authLink {
+    color: #d9dce2;
+    text-decoration: none;
+    font-size: 13 px;
+    font-weight: 500;
+    padding: 4px 6px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.authLink:hover {
+    color: white;
+}
+
+.welcome {
+    color: #d9dce2;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.logout {
+    border: none;
+    background: none;
+    color: #d9dce2;
+    font-size: 12px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        padding: 12px 20px;
+    }
+
+    .navLink {
+        margin-left: 0;
+        padding: 10px 0 !important;
+    }
+}
+
